@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Registro</title>
+   <meta charset="UTF-8"/>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   
+     <!--- Bootstrap --->
+   
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+</head>
+
+<center> <body  class="bg-info d-flex justify-content-center align-items-center vh-100">
+
+    <div
+      class="bg-white p-5 rounded-5 text-secondary shadow"
+      style="width: 25rem">
+
+
+   <div class="row text-center animate__animated animate__bounceInLeft">
+              					    
+                           <h5 class="card-title">Registrarse</h5>
+						   
+						     <hr>
+						   						 					
+							<header>
+                             <div id="logo">
+	                          <img src="https://cdn-icons-png.flaticon.com/512/149/149995.png" alt="centered image" height="150" width="180" alt="logo">
+	                         </div>
+                            </header>
+							   
+							   <hr>
+							   
+							 <section id="formulario2">	
+							 
+	                               <form name="Nuevo Usuario" method="POST" action="/UTN Diplomatura en Programacion/php/ConexionCrearUsuario.php">
+								   
+														     
+                                 <br> <input type="text" name="usuario" placeholder="Ingrese su usuario" required></br>
+								 <br> <input type="text" name="nombre" placeholder="Ingrese su nombre" required></br>
+								 <br> <input type="text" name="apellido" placeholder="Ingrese su apellido" required></br>
+								 <br> <input type="password" name="password" maxlength="20" autocomplete="new-password"  placeholder="Ingrese su contraseña" required></br>
+								 <br> <input type="email" name="email" placeholder="Ingrese su email" required></br>
+								 <br> <input type="number" name="edad" min="18" placeholder="Ingrese su edad" required></br>
+								 
+								 <br> <textarea name="descripcion" placeholder="Ingrese su descripcion" required></textarea></br>                                								 
+								
+                             
+								 <hr>
+                                   
+                              
+
+									<input type="submit" name="enviar" class="boton boton btn btn-info text-white w-100 mt-4 fw-semibold shadow-sm" value="Registrate">
+									<input type="reset" class="boton boton btn btn-info text-white w-100 mt-4 fw-semibold shadow-sm" value="borrar">
+								 
+									</form>
+								   
+	                             </section>	
+								 
+								 <a href="http://localhost/UTN%20Diplomatura%20en%20Programacion/Index.html"  href="#" class="boton boton btn btn-info text-white w-100 mt-4 fw-semibold shadow-sm">Volver a Inicio</a>
+                                     
+							     
+								  
+
+                              <footer>
+                                <p> <hr> Martin Pedersen Copyright &copy;2023</p>
+                              </footer>								
+                                    								 
+                     
+   </div>
+   
+</body> </center>
+
+</html>
